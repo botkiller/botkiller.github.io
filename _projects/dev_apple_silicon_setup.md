@@ -40,6 +40,16 @@ VSCode is the central IDE for Python and SQL Server development, as well as our 
     sudo ln -s /usr/local/share/dotnet/dotnet /usr/local/bin/
     ```
 
+### Git
+- Configure `~/.gitconfig` 
+    Like this for "ectropy-vscode"
+    ```zsh
+    git config --global user.email "botkiller@gmail.com"
+    ```
+    OR this for "botkiller"
+    ```zsh
+    git config --global user.email "johnson.a.chris@gmail.com"
+    ```
 
 ### Python
 - Install Python 3 (Should prompt to download XCode tools)
@@ -59,7 +69,12 @@ VSCode is the central IDE for Python and SQL Server development, as well as our 
     ```zsh
     pip install --upgrade pip
     ```
-
+- Libraries
+    - pyodbc
+    ```zsh
+    brew install unixodbc
+    pip install pyodbc
+    ```
 
 ### Ruby
 - Install Ruby
@@ -80,10 +95,12 @@ VSCode is the central IDE for Python and SQL Server development, as well as our 
     ```zsh
     gem install jekyll
     ```
-- When bundling, verify `Gemfile.lock` contains the correct PLATFORMS. Add missing like so: 
+- When bundling, verify `Gemfile.lock` contains the correct PLATFORMS. Add missing platforms like so: 
     ```zsh
     bundle lock --add-platform x86_64-linux
     bundle lock --add-platform arm64-darwin-19
     ```
 
-        
+
+### App Store 
+- [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12)

@@ -32,8 +32,14 @@ VSCode is the central IDE for Python and SQL Server development, as well as our 
             - Jupyter
             - Predawn Theme Kit
             - Ayu (for file icons)
+            - Python
+            - SQL Server (mssql)
+            - SQL Database Projects
+            - Pylance
+            - Markdown Preview
         - `Shell Command: Install 'code' command in PATH`
             - Install: Shell (Enables "code" PATH in Terminal)
+        
 - Download [.NET SDK for macOS ARM64](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
     - May also need to run this to ensure the `dotnet` command works in Terminal:
     ```zsh
@@ -41,12 +47,17 @@ VSCode is the central IDE for Python and SQL Server development, as well as our 
     ```
 
 ### Git
+- Install Git
+    ```zsh
+    brew install git
+    ```
+    - Confirm `which get` returns `usr/local/bin/git'
 - Configure `~/.gitconfig` 
-    Like this for "ectropy-vscode"
+    For "ectropy-vscode"
     ```zsh
     git config --global user.email "botkiller@gmail.com"
     ```
-    OR this for "botkiller"
+    OR for "botkiller"
     ```zsh
     git config --global user.email "johnson.a.chris@gmail.com"
     ```

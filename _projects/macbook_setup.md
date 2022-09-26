@@ -7,6 +7,9 @@ importance: 1
 category: documentation
 ---
 
+### First Time Setup
+Before doing anything else, update the MacOS operating system to the latest version. 
+-  > System Preferences > Software Update
 
 ### System Preferences
 #### Trackpad 
@@ -74,8 +77,14 @@ run "sudo scutil --set HostName MBP"
     * Screen Time
     * Wallet
 
+#### Mission Control
+`System Preferences > Mission Control`
+- Disable "Automatically rearrange Spaces based on most recent use"
+- Disable "When switching to an application, switch to a Space with open windows for the application"
+
+
 ### Dock
-- Remove the following default apps from the Dock:
+Remove the following default apps from the Dock:
     * Launchpad
     * Mail
     * Maps

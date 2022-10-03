@@ -53,13 +53,9 @@ VSCode is the central IDE for Python and SQL Server development, as well as our 
     ```
     - Confirm `which get` returns `usr/local/bin/git'
 - Configure `~/.gitconfig` 
-    For "ectropy-vscode"
+    Note that the email address used will determine which account is publishing changes from your dev computer.
     ```zsh
-    git config --global user.email "botkiller@gmail.com"
-    ```
-    OR for "botkiller"
-    ```zsh
-    git config --global user.email "johnson.a.chris@gmail.com"
+    git config --global user.email "<EMAIL_ADDRESS>"
     ```
 
 ### Python

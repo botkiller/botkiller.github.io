@@ -2,7 +2,7 @@
 layout: page
 title: Video Editing Process
 description: Step-by-step workflow for editing MXF video files. 
-img: assets/img/1.jpg
+img: assets/img/video_editing.jpg
 importance: 3
 category: documentation
 ---

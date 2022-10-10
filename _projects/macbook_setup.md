@@ -12,9 +12,13 @@ Before doing anything else, update the MacOS operating system to the latest vers
 -  > System Preferences > Software Update
 
 ### System Preferences
+#### Login Options
+`System Preferences > Users & Groups > Login Options`
+- Enable "Show fast user switching menu as **[Icon]**"
+
 #### Trackpad 
 `System Preferences > Trackpad`
-- Increase speed to near max.
+- Increase speed to just below the maximum.
 
 #### Keyboard
 `System Preferences > Keyboard > Text`

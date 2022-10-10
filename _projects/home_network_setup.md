@@ -47,7 +47,7 @@ Bitwarden is also used for storing secure notes related to the network configura
 
 
 ### DS920
-|||
+|Setting|Value|
 | ----------- | ----------- |
 | IP Address | [192.168.1.20](http://192.168.1.20:5000/#/signin)| 
 | Device Name | `DS920`       |
@@ -59,7 +59,7 @@ Bitwarden is also used for storing secure notes related to the network configura
 
 
 ### DS212
-|||
+|Setting|Value|
 | ----------- | ----------- |
 | IP Address | [192.168.1.25](http://192.168.1.25:5000/#/signin)| 
 | Device Name | `DS212`       |

@@ -7,6 +7,9 @@ importance: 3
 category: documentation
 ---
 
+### Prerequisites 
+- Homebrew must be installed.
+
 ### Codecs
 - Install [Apple Pro Video Formats](https://support.apple.com/kb/DL2050?locale=en_US)
 - Install QLVideo (gives thumbnails to MXF and MKV files)
@@ -19,7 +22,7 @@ category: documentation
 - [Motion](https://apps.apple.com/us/app/motion/id434290957?mt=12)
 - [Compressor](https://apps.apple.com/us/app/compressor/id424390742?mt=12)
 
-### IINA 
+### IINA Media Player
 - Download and Install [IINA](https://dl-portal.iina.io/IINA.v1.3.0.dmg)
 - `Finder > Get Info > Open With > Change All`
     - Set to IINA.app
@@ -33,4 +36,7 @@ category: documentation
 ### Third Party Software
 - Install [Catalyst Browse](https://www.sonycreativesoftware.com/catalystbrowse)
 - Install [Adobe CC](https://creativecloud.adobe.com)
+- Install [Handbrake](https://handbrake.fr)
+
+
 

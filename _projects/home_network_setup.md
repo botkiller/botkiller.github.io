@@ -16,7 +16,7 @@ An important aspect of setting up this home network is maintaining the credentia
 
 ### iCloud Keychain
 
-Due to us living in an Apple ecosystem, iCloud keychain is the ideal method for storage/retrieval for any accounts accessed via web UI. iCloud Keychain can generate complex passwords that are neatly separated by dashes for easier typing. 
+Due to us living in an Apple ecosystem, iCloud keychain is the ideal method for storage/retrieval for any accounts accessed via web UI. iCloud Keychain can generate complex passwords that are neatly separated by dashes for easier typing when not using an Apple device that autofills the password. 
 
 iCloud Keychain can be accessed in `System Preferences (MacOS)/Settings (iOS) > Passwords`. 
 
@@ -29,6 +29,7 @@ Bitwarden is locally encrypted and cloud synced and secured with 2-factor authen
 Bitwarden is also used for storing secure notes related to the network configuration and specific entries will be referenced throughout this document rather than publically documenting that information.
 
 ## Synology 
+
 
 ### Web Account
 
@@ -200,17 +201,18 @@ Tailscale in the Synology Package Center
 ## OFFSITE server config
 ```mermaid
 flowchart TB
-subgraph OFFSITE
+subgraph UNRAID
     subgraph Boot
         usb1[64GB Flash Drive]
     end
 
     subgraph Parity
-        hdd1[14TB HDD]
+        hdd1[4TB HDD]
     end
     subgraph Array
-        hdd2[4TB HDD]
+        hdd2[3TB HDD]
         hdd3[3TB HDD]
+        hdd4[3TB HDD]
     end
     subgraph Cache
         ssd1[250GB SSD]
@@ -232,10 +234,8 @@ end
 ```mermaid
 flowchart TB
 subgraph DS212
-    subgraph RAID5
-        hdd5[3TB HDD]
-        hdd6[3TB HDD]
-    end
+    hdd5[14TB HDD]
+    hdd6[EMPTY]
 end
 ```
 

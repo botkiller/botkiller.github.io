@@ -198,6 +198,8 @@ Tailscale in the [Mac App Store](https://apps.apple.com/us/app/tailscale/id14753
 
 Tailscale in the Synology Package Center
 
+On Synology, follow [these steps](https://tailscale.com/kb/1131/synology/#persist-the-tun-settings) to keep Tailscale operational after a reboot. 
+
 ## OFFSITE server config
 ```mermaid
 flowchart TB

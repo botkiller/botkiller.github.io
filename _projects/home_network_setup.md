@@ -138,6 +138,7 @@ Bitwarden is also used for storing secure notes related to the network configura
 
 
 ## Tailscale 
+
 ```mermaid
 flowchart TB
     subgraph Local Network
@@ -194,6 +195,7 @@ flowchart TB
         syno1-->idrive
     end
 ``` 
+
 Tailscale in the [Mac App Store](https://apps.apple.com/us/app/tailscale/id1475387142?mt=12)
 
 Tailscale in the Synology Package Center
